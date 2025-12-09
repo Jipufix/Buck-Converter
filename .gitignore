@@ -1,0 +1,25 @@
+# KiCad Files to Ignore
+#-----------------------------------
+# Temporary/Lock files
+*.lck
+*-bak
+*.tmp
+
+*.pro.bak
+*.kicad_wks
+
+# Auto-generated symbol and footprint cache files
+*-cache.lib
+fp-info-cache
+
+# Backup files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Log and Gerber files
+*.log
+*.drl
+*.gbr
+*.pdf
+gerber/
+plots/
